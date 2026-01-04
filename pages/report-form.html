@@ -21,3 +21,29 @@
             li><a href="about.html">About Us</a></li>
         </ul>
     </nav>
+    <main>
+        <h2>Submit a Request</h2>
+        <form id="requestForm">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" required><br>
+            <label for="dept">Department:</label><br>
+            <select id="dept">
+                <option>Computing</option>
+                <option>Aerospace Engineering</option>
+                <option>Electrical Engineering</option>
+                <option>Materials Science</option>
+            </select><br><br>
+            <label>Role:</label><br>
+            <input type="radio" name="role" required> Student
+            <input type="radio" name="role"> Faculty<br><br>
+            <label for="details">Request Details:</label><br>
+            <textarea id="details" rows="5"></textarea><br>
+            <button type="submit">Submit Request</button>
+        </form>
+    </main>
+    <script src="js/script.js"></script>
+    <footer>© StudyNest by IST | Team SMS</footer>
+</body>
+</html>
