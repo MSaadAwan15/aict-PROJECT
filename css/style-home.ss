@@ -30,3 +30,53 @@ header h1 {
     margin: 0;
     font-size: 24px;             
 }
+/* Nav direct header ke neeche – zero gap */
+nav {
+    margin-top: 0;
+    padding-top: 0;
+}
+header h1 {
+    font-size: 36px;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        padding: 20px 15px;
+    }
+    
+    header img {
+        max-width: 140px;
+    }
+    
+    header h1 {
+        font-size: 28px;
+    }
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #004488;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 20px;
+    display: block;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background-color: #0055bb;
+}
