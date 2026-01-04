@@ -17,12 +17,3 @@ header {
     margin: 0;                     
     line-height: 1;                
 }
-
-header img {
-    max-width: 200px;              
-    width: 70vw;                   
-    height: auto;
-    margin: 0 auto;                
-    display: block;
-    border-radius: 10px;
-}
