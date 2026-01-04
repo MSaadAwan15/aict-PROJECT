@@ -120,3 +120,32 @@ tbody tr:hover {
     background-color: #e6f0ff;
     transform: translateY(-2px);
 }
+/* Footer */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header img {
+        max-width: 140px;
+    }
+    
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    table, th, td {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
