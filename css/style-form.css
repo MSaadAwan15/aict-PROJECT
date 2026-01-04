@@ -26,3 +26,27 @@ header img {
     display: block;
     border-radius: 10px;
 }
+/* Navigation Bar - Consistent Across Pages */
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #004488;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 20px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #0055bb;     /
+    border-radius: 5px;
+}
