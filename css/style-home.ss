@@ -80,3 +80,50 @@ nav a {
 nav a:hover {
     background-color: #0055bb;
 }
+/* Main Content Area */
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #003366;
+}
+
+/* Hero Image Styling */
+.hero-section {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin: 20px 0;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Welcome Box 
+.welcome-box {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin: 40px 0;
+}
+
+/* Footer - Fixed at Bottom */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
