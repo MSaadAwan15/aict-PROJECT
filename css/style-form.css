@@ -50,3 +50,88 @@ nav a:hover {
     background-color: #0055bb;     /
     border-radius: 5px;
 }
+/* Main Content */
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    min-height: calc(100vh - 120px); /* Adjust for fixed footer */
+}
+
+h1, h2 {
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+/* Form Styling - Request Notes Page */
+form {
+    max-width: 600px;
+    margin: 40px auto;
+    text-align: left;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+input, select, textarea, button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #003366;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 14px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0055bb;
+}
+
+/* Footer - Fixed at Bottom */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    z-index: 10;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    
+    nav a {
+        padding: 12px;
+    }
+    
+    header img {
+        max-width: 130px;
+    }
+    
+    form {
+        padding: 20px;
+        margin: 20px auto;
+    }
+    
+    main {
+        padding: 30px 15px;
+    }
+}
